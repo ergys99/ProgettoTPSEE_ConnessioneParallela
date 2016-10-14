@@ -35,9 +35,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
-Rev ""
-Comp ""
+Date "2016-10-14"
+Rev "A"
+Comp "ISIS Newton di Varese"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -341,7 +341,7 @@ $EndComp
 Text HLabel 8350 1900 2    60   Output ~ 12
 ERROR
 $Comp
-L R R?
+L R R1
 U 1 1 58011E4D
 P 7000 2700
 F 0 "R1" V 7080 2700 50  0000 C CNN
@@ -352,7 +352,7 @@ F 3 "" H 7000 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R2
 U 1 1 58011EA6
 P 7350 2700
 F 0 "R2" V 7430 2700 50  0000 C CNN
@@ -363,7 +363,7 @@ F 3 "" H 7350 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R3
 U 1 1 58011EFF
 P 7700 2700
 F 0 "R3" V 7780 2700 50  0000 C CNN
@@ -674,7 +674,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 2400 5250 2400
 $Comp
-L SW_PCB SW?
+L SW_PCB SW1
 U 1 1 5801A7D7
 P 3500 2350
 F 0 "SW1" H 3500 2490 50  0000 C CNN
@@ -685,7 +685,7 @@ F 3 "" H 3500 2350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PCB SW?
+L SW_PCB SW2
 U 1 1 5801A85A
 P 3900 2350
 F 0 "SW2" H 3900 2490 50  0000 C CNN
@@ -696,7 +696,7 @@ F 3 "" H 3900 2350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PCB SW?
+L SW_PCB SW3
 U 1 1 5801A8C1
 P 4300 2350
 F 0 "SW3" H 4300 2490 50  0000 C CNN
@@ -707,7 +707,7 @@ F 3 "" H 4300 2350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PCB SW?
+L SW_PCB SW4
 U 1 1 5801A92D
 P 4700 2350
 F 0 "SW4" H 4700 2490 50  0000 C CNN
@@ -762,7 +762,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2700 4800 2650
 $Comp
-L CONN_01X05 P?
+L CONN_01X05 JP3
 U 1 1 5801B871
 P 1550 1700
 F 0 "JP3" H 1550 2150 50  0000 C CNN
@@ -809,7 +809,7 @@ Connection ~ 4750 2000
 Wire Wire Line
 	1750 1900 5250 1900
 $Comp
-L R R?
+L R R6
 U 1 1 5801D05F
 P 2600 1600
 F 0 "R6" V 2500 1600 50  0000 C CNN
@@ -833,7 +833,7 @@ $EndComp
 Wire Wire Line
 	2450 1800 1750 1800
 $Comp
-L R R?
+L R R7
 U 1 1 5801D805
 P 2600 1400
 F 0 "R7" V 2500 1400 50  0000 C CNN
@@ -844,7 +844,7 @@ F 3 "" H 2600 1400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R8
 U 1 1 5801D876
 P 2600 1200
 F 0 "R8" V 2500 1200 50  0000 C CNN
@@ -885,7 +885,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 1200 3000 1500
 $Comp
-L R R?
+L R R9
 U 1 1 5801E7F4
 P 4750 1250
 F 0 "R9" V 4650 1250 50  0000 C CNN
@@ -896,7 +896,7 @@ F 3 "" H 4750 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R10
 U 1 1 5801EBF4
 P 4350 1250
 F 0 "R10" V 4250 1250 50  0000 C CNN
@@ -907,7 +907,7 @@ F 3 "" H 4350 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R11
 U 1 1 5801EC76
 P 3950 1250
 F 0 "R11" V 3850 1250 50  0000 C CNN
@@ -918,7 +918,7 @@ F 3 "" H 3950 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R12
 U 1 1 5801ED03
 P 3550 1250
 F 0 "R12" V 3450 1250 50  0000 C CNN
